@@ -39,6 +39,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A78940E01D786C4600AB428F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B765130A1D166F41004CC145 /* AppDelegate.swift */,
+				B76513111D166F41004CC145 /* Assets.xcassets */,
+				B76513131D166F41004CC145 /* LaunchScreen.storyboard */,
+				B76513161D166F41004CC145 /* Info.plist */,
+				B756B9E71D16723D0041C040 /* LightBulb.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		B76512FE1D166F41004CC145 = {
 			isa = PBXGroup;
 			children = (
@@ -58,13 +70,9 @@
 		B76513091D166F41004CC145 /* LightBulb */ = {
 			isa = PBXGroup;
 			children = (
-				B765130A1D166F41004CC145 /* AppDelegate.swift */,
+				A78940E01D786C4600AB428F /* Supporting Files */,
 				B765130C1D166F41004CC145 /* ViewController.swift */,
 				B765130E1D166F41004CC145 /* Main.storyboard */,
-				B76513111D166F41004CC145 /* Assets.xcassets */,
-				B76513131D166F41004CC145 /* LaunchScreen.storyboard */,
-				B76513161D166F41004CC145 /* Info.plist */,
-				B756B9E71D16723D0041C040 /* LightBulb.png */,
 				B7AAB9F81D17502A00826CCC /* ColorExtras.swift */,
 			);
 			path = LightBulb;
